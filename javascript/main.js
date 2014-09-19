@@ -14,6 +14,7 @@ $(function(){
     
   });
 });
+// used for auto scrolling
 
 $('a').click(function(){
     $('html, body').animate({
