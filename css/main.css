@@ -1,7 +1,7 @@
 body {
   height: 1000px;
-  /*picture not working*/
-  background-image: url(esheresque_ste.png);
+  
+  background-image: url(../image/escheresque_ste.png);
 }
 
 header {
@@ -11,9 +11,7 @@ header {
   height: 150px;
   top: 0;
   left: 0;
-  /*picture not working*/
-  background-image: url(black_lozenge.png);
-  border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+  background-image: url(../image/escheresque_ste.png);
   -webkit-transition: height 0.3s;
 }
 header .container {
@@ -52,8 +50,8 @@ header nav a {
 }
 /*when scrolling the header shrinks*/
 header nav a:hover {
-  border-top: 2px dotted black;
-  border-bottom: 2px dotted black;
+  border-top: 2px dotted white;
+  border-bottom: 2px dotted white;
   text-decoration: none;
 
 }
@@ -95,9 +93,6 @@ header.minimized h1 {
 }
 /*rotating letters*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Dosis:200,400,600);
-body {
-  background-color: #252527;
-}
 
 .h1 {
   font-family: Dosis;
@@ -179,5 +174,9 @@ strong {
 
 /*media  for small screen*/
 @media (min-width: 320px) and (max-width: 568px{
-    
+     header{
+     	position: fixed;
+     	font-size: 5px;
+
+    }
 }
