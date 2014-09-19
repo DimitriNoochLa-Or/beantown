@@ -126,7 +126,7 @@ strong {
   display: block;
   font-weight: 400;
 }
-
+/* resizing*/
 @-webkit-keyframes anim {
   0% {
     text-shadow: 0 0 50px #fff;
