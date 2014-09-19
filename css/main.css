@@ -1,6 +1,6 @@
 body {
   height: 1000px;
-  background-color: black;
+  background-image: url('esheresque.ste.png');
 }
 
 header {
@@ -10,7 +10,7 @@ header {
   height: 150px;
   top: 0;
   left: 0;
-  background-image: scr('black_lozenge.png');
+  background-image: url('black_lozenge.png');
   border-bottom: 3px solid rgba(0, 0, 0, 0.4);
   -webkit-transition: height 0.3s;
 }
@@ -86,6 +86,7 @@ header.minimized h1 {
 
 .filler{
 	height: 720px;
+
 }
 .line{
 	border-bottom: 10px solid white;
