@@ -1,6 +1,7 @@
 body {
   height: 1000px;
-  background-image: url('esheresque.ste.png');
+  /*picture not working*/
+  background-image: url(esheresque_ste.png);
 }
 
 header {
@@ -10,7 +11,8 @@ header {
   height: 150px;
   top: 0;
   left: 0;
-  background-image: url('black_lozenge.png');
+  /*picture not working*/
+  background-image: url(black_lozenge.png);
   border-bottom: 3px solid rgba(0, 0, 0, 0.4);
   -webkit-transition: height 0.3s;
 }
@@ -92,9 +94,6 @@ header.minimized h1 {
 	border-bottom: 10px solid white;
 }
 /*media  for small screen*/
-@media (min-width: 320px) and (max-width: 568px){
-	#aboutmebox{
-		color:lime;
-}
+@media (min-width: 320px) and (max-width: 568px{
 
 }
