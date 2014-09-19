@@ -87,8 +87,8 @@ header.minimized h1 {
 .filler{
 	height: 720px;
 }
-.img{
-	margin-top: 100px;
+.line{
+	border-bottom: 10px solid white;
 }
 /*media  for small screen*/
 @media (min-width: 320px) and (max-width: 568px){
