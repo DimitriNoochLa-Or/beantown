@@ -151,6 +151,7 @@ strong {
     -webkit-transform: rotateY(0deg) translateZ(100px);
   }
 }
+/*rotation*/
 @keyframes anim {
   0% {
     text-shadow: 0 0 50px #fff;
