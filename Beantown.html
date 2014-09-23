@@ -6,19 +6,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/carousel.css">
+<link rel="stylesheet" type="text/css" href="css/togglenav.css">
+
+
 	<title>Bean Town Coffee Bar</title>
 </head>
 <body>
-
+http://codepen.io/ColdToast/pen/bBJyK
 
 
     <header>
   <div>
     <h1><a href="beantown.html">Bean Town</a></h1>
-    <nav>
-     <a href="#menu" rel="" class="anchorLink">MENU</a>
+    <nav class="nav-tabs">
+     <a href="http://www.musthavemenus.com/places/bean-town-sierra-madre-ca-91024-59533/bean-town-menu-10261263" rel="" class="anchorLink">MENU</a>
      <a href="#catering" rel="" class="anchorLink">CATERING</a>
      <a href="#gift" rel="" class="anchorLink">GIFT SHOP</a>
      <a href="#contact" rel="" class="anchorLink">CONTACT</a>
@@ -30,10 +35,33 @@
   </div>
 </header>
 
+<div id="site-wrapper">
+  <div id="site-canvas">
+    <div id="site-menu">
+        <h2>My Menu</h1>
+        <p class="lead">HTML Here</p>
+        <p>Menu text here</p>
+        <ul class="list-unstyled">
+             <a href="http://www.musthavemenus.com/places/bean-town-sierra-madre-ca-91024-59533/bean-town-menu-10261263" rel="" class="anchorLink">MENU</a>
+		     <a href="#catering" rel="" class="anchorLink">CATERING</a>
+		     <a href="#gift" rel="" class="anchorLink">GIFT SHOP</a>
+		     <a href="#contact" rel="" class="anchorLink">CONTACT</a>
+		     <a href="#location" rel="" class="anchorLink">LOCATION</a>
+		     <a href="#About Us" rel="" class="anchorLink">ABOUT US</a>
+		    
+        </ul>
+     </div>
+
+    <a  class="toggle-nav btn btn-success">
+      <i class="fa fa-bars"></i> 
+      Menu
+    </a>
+     </div>
+		</div>
 
 	<div>
 		
-		<h1 class="h1"><center> Bean Town <strong> Coffee House & </strong> <strong> Bakery </strong> <strong> 45 N Baldwin Ave</strong> </center></h1>
+		<h1 class="h1"><center> Bean Town <strong> Coffee House & </strong> <strong> Bakery </strong> <strong class="line"> 45 N Baldwin Ave</strong> </center></h1>
 	
 		<div class="line"></div>
 	    
@@ -42,9 +70,9 @@
 
 <div class="container">
 
-	<div id="aboutmebox" class="text-justify">
+	<div class="aboutmebox" class="text-justify">
 	<a name="About Us" href="About Us"></a>
-           <!--  <header> <h2>About Us</h2></header> -->
+			<h1>About Us</h1>
           <p>Greetings from the folks at Bean Town — a unique coffee house and bakery located in beautiful Sierra Madre!
 
 
@@ -53,25 +81,48 @@
 		  With our onsite kitchen and bakery we create homemade soups, salads, sandwiches, quiches, and other comforting fare. Baking daily such as fresh cookies, pastries, cinnamon rolls, scones, muffins, croissants,the list goes on.  We also serve the world famous Fosselmans ice cream, and a variety of blended frozen drinks. </p>
 
     </div>
-	    <div id="aboutmebox">
-	    <a name="contact" href="contact">
-	           <!--  <header> <h2>About Us</h2></header> -->
-	           <h1>Contact Us</h1>
+	    <div class="aboutmebox" class="text=justify">
+	    <a name="contact"></a>
+	           <h1>Contact Bean Town</h1>
 			   <p>Give us a call, and we'll prepare your order to go!
-					(626) 355-1596
+					<br>(626) 355-1596</p>
 
-					We'd love to hear from you!
+					<p>We'd love to hear from you!
 					Email us: contact@beantowncoffeebar.com </p>
 
 	    </div>
-		    <div id="aboutmebox">
-		           <!--  <header> <h2>About Us</h2></header> -->
+		    <div class="aboutmebox" class="text-justify">
 		          <p>Greetings from the folks at Bean Town — a unique coffee house and bakery located in beautiful Sierra Madre!
 
 			      For over 15 years, Bean Town has been brewing coffee and baking all sorts of treats. We pride ourselves in using the best ingredients to serve you a quality product. Bean Town proudly serves private label coffee from The Sierra Madre Roasting Company that we roast and brew to perfection.
 
 				  With our onsite kitchen and bakery we create homemade soups, salads, sandwiches, quiches, and other comforting fare. Baking daily such as fresh cookies, pastries, cinnamon rolls, scones, muffins, croissants,the list goes on.  We also serve the world famous Fosselmans ice cream, and a variety of blended frozen drinks. </p>
 
+		    </div>
+		     <div class="aboutmebox" class="text-justify">
+		     <a name="catering"></a>
+		          <h1>Bean Town Catering</h2>
+		          <p>Bean Town offers the finest catering experience to our customers. Find out what we can do for you by giving us a call at 626-355-BEAN (2326).</p>
+
+		    </div>
+
+
+		    <div>
+			  <h3>(hover over to pause)</h3>
+				<div id="wrapper">
+					<div id="image">
+						<div class="image i1"><img src="beantown.jpg width=300px height=400px"></div>
+						<div class="image i2"><img src="cake.jpg"></div>
+						<div class="image i3"><img src="chair.jpg"></div>
+						<div class="image i4"><img src="https://www.oxy.edu/sites/default/files/assets/Fosselman's%20Ice%20Cream.jpg"></div>
+						<div class="image i5"><img src="https://dl.dropbox.com/u/80409395/Codepen/Girls-in-leaves.jpg"></div>
+						<div class="image i6"><img src="https://dl.dropbox.com/u/80409395/Codepen/Natalie-smiling.jpg"></div>
+						<div class="image i7"><img src="https://dl.dropbox.com/u/80409395/Codepen/Charlie-sleeping.jpg"></div>
+						<div class="image i8"><img src="https://dl.dropbox.com/u/80409395/Codepen/Sledding.jpg"></div>
+					</div>
+				</div>
+
+		    	
 		    </div>
 	    
 
