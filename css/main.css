@@ -73,16 +73,18 @@ header.minimized h1 {
 .container {
   height: 1500px;
 }
-.aboutmebox{
+.divbox{
     text-align: center;
     background-color:azure;
-    color:black;
+    color:white;
     width:100%;
     font-size: 1.2em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
     font-size: 1.6em;
     height: 600px;
+    background-image: url(../image/black_lozenge.png);
+
 }
 
 .filler{
