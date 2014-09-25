@@ -186,4 +186,17 @@ strong {
     .container{
     	width: 70%;
     }
+    .divbox{
+    text-align: center;
+    background-color:azure;
+    color:white;
+    width:100%;
+    font-size: auto;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+    font-size: 1.6em;
+    height: 600px;
+    background-image: url(../image/black_lozenge.png);
+
+}
 }
